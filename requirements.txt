@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+pandas
+scikit-learn
+joblib
+sqlalchemy>=2.0
+asyncpg
+alembic
+psycopg2-binary
+openai
