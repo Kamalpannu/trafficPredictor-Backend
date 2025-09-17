@@ -21,7 +21,7 @@ app = FastAPI(title="Traffic Prediction API", version="1.0.0")
 # CORS middleware for frontend integration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://trafficpredictorfrontend.vercel.app/"],
+    allow_origins=["https://trafficpredictorfrontend.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
